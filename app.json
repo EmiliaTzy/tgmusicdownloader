@@ -1,0 +1,21 @@
+{
+  "name": "telegram-music-downloader-bot",
+  "description": "YouTube Music Downloader Bot for Telegram. ",
+	"stack": "container",
+  "repository": "https://github.com/EmiliaTzy/telegram-music-downloader-bot",
+  "keywords": [
+  "python", 
+  "chatbot", 
+  "telegrambot",
+  "emilia"
+  ],
+  "website": "https://github.com/EmiliaTzy/telegram-music-downloader-bot",
+  "success_url": "https://t.me/EmiliaMusicDownloader_Bot",
+  "env": {
+    "TOKEN": {
+      "description": "Buat bot di BotFather http://telegram.dog/BotFather dan salin token botmu",
+      "value": "",
+      "required": true
+    }
+  }
+}
